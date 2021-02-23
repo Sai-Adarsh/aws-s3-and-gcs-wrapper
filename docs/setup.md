@@ -8,7 +8,7 @@
   ```bash
   $ docker run -d -p 5000:5000 simple-flask-app
   ```
-* The application will be accessible at `http://127.0.0.1:5000` and if you are using `boot2docker`, find the IP address using `$ boot2docker ip` and the use the IP `http://<host_ip>:5000`
+* The application will be accessible at `http://localhost:5000` and if you are using `boot2docker`, find the IP address using `$ boot2docker ip` and the use the IP `http://<host_ip>:5000`
 
 
 ### ☀️ Run Flask Server without Docker
@@ -25,9 +25,10 @@
   ```bash
   $ python app.py
   ```
-* The application will be accessible at `http://127.0.0.1:5000`
+* The application will be accessible at `http://localhost:5000`
 
 ### ☀️ Deploy
-You can deploy your own copy of the API using this button:
+
+* You can deploy your own copy of the API using this button:
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
