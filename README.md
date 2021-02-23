@@ -3,46 +3,36 @@
 </p>
 
 ### Description
-This repository contains code that helps you build a twitter clone and helps you deploy it to cloud as FaaS .i.e., Serverless Twitter. Take a look at [setup.md](https://github.com/SyamSundarKirubakaran/serverless-twitter/blob/master/docs/setup.md) to learn how to setup this project. You can also find two mobile clients consuming these serverless APIs .i.e., **Android**(v0.5) and **iOS**(WIP).
+This repository contains code that helps you build a web service and helps you deploy it to cloud as FaaS .i.e., Wrapper API for AWS S3 and Google Cloud Storage. Take a look at [setup.md](https://github.com/Sai-Adarsh/mtx-hacks/blob/master/docs/setup.md) to learn how to setup this project. You can also communicate with multiple SDKs to perform the same jobs .i.e., **AWS S3** and **Googe Cloud Storage**.
 
 ### Functions
 
-- **POST** - Create User
+- **POST** - PUT files
     - `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/user`
-- **POST** - Create Tweet
+- **POST** - PUT folders
     -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/tweet`
-- **GET** - Get All Tweets
+- **POST** - GET foles
     -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/tweet`
-- **GET** - Get Tweets by Specific User
+- **POST** - GET folder
     -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/tweet/specific/{authType}/{userId}`
-- **PATCH** - Like / Unlike a Tweet
+- **PATCH** - Switch Config between AWS and GCP
     -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/tweet/{tweetId}`
-- **PATCH** - Follow / Unfollow an User
+- **PATCH** - List all buckets
     -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/user`
-- **GET** - Get All Users
-    -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/user`
-- **GET** - Get Specific User
-    -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/user/specific/{authType}/{userId}`
-- **DELETE** - Delete Tweet
-    -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/tweet/{tweetId}`
-- **GET** - Get Signed URL for Image Upload
-    -  `https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/tweet/signedUrl/{tweetId}`
 
 You can also import the provided Postman Collection to take a quick look at the exposed endpoints. Also make sure to fill up `apiId` and `authToken` environment variables to make endpoints intract with the deplpoyed serverless application.
 
-Build the image using the following command
+### Run
 
-```bash
-$ docker build -t simple-flask-app:latest .
-```
-
-Run the Docker container using the command shown below.
-
-```bash
-$ docker run -d -p 5000:5000 simple-flask-app
-```
-
-The application will be accessible at http:127.0.0.1:5000 or if you are using boot2docker then first find ip address using `$ boot2docker ip` and the use the ip `http://<host_ip>:5000`
+* Build the Image:
+  ```bash
+  $ docker build -t simple-flask-app:latest .
+  ```
+* Run the Docker container using the command shown below.
+  ```bash
+  $ docker run -d -p 5000:5000 simple-flask-app
+  ```
+* The application will be accessible at `http://127.0.0.1:5000` or if you are using `boot2docker`, fin IP address using `$ boot2docker ip` and the use the ip `http://<host_ip>:5000`
 
 
 **Screenshots**<br />
