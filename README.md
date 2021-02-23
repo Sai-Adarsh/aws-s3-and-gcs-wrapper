@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="docs/img/banner.jpg">
+  <img src="docs/img/banner.png">
 </p>
-
 
 ### Description
 This repository contains code that helps you build a twitter clone and helps you deploy it to cloud as FaaS .i.e., Serverless Twitter. Take a look at [setup.md](https://github.com/SyamSundarKirubakaran/serverless-twitter/blob/master/docs/setup.md) to learn how to setup this project. You can also find two mobile clients consuming these serverless APIs .i.e., **Android**(v0.5) and **iOS**(WIP).
@@ -54,5 +53,5 @@ The application will be accessible at http:127.0.0.1:5000 or if you are using bo
 ### Architecture
 
 <p align="center">
-  <img src="docs/img/arch.jpg">
+  <img src="docs/img/arch.png">
 </p>
