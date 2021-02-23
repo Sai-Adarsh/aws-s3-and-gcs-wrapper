@@ -1,0 +1,4 @@
+flask
+s3cmd
+werkzeug==0.15.5
+gunicorn
