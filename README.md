@@ -26,6 +26,11 @@ This repository contains code that helps you build a web service to upload and d
 
 You can also import the provided Postman Collection to take a quick look at the exposed endpoints. Also make sure to fill up `access_key` and `secret_key` environment variables to make endpoints intract with the deployed API.
 
+**Screenshots**<br />
+<img src="docs/img/one.png" height=520 width =270 />
+<img src="docs/img/two.png" height=520 width =270 />
+<img src="docs/img/three.png" height=520 width =270 />
+
 ### ☀️ Architecture
 
 <p align="center">
