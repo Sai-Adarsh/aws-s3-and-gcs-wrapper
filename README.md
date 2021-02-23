@@ -37,6 +37,6 @@ You can also import the provided Postman Collection to take a quick look at the 
   <img src="docs/img/arch.png">
 </p>
 
-### ❤️ Author
+### ❤️ Authors
 
 * Sai Adarsh S., Sibi Bose P. S. 
