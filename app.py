@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+﻿from flask import Flask, jsonify, request
 import os
 import subprocess
 from subprocess import Popen, PIPE
@@ -77,14 +77,14 @@ def switchConfig():
         config = ConfigParser()
         config.read(conf_file)
         if base == "AWS":
-            config.set("DEFAULT", "access_key", "AKIAYJRWIDIGPWY2IP6Y")
-            config.set("DEFAULT", "secret_key", "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")
+            config.set("DEFAULT", "access_key", "")
+            config.set("DEFAULT", "secret_key", "")
             config.set("DEFAULT", "host_base", "s3.amazonaws.com")
             config.set("DEFAULT", "host_bucket", "%(bucket)s.s3.amazonaws.com")
-            config.set("DEFAULT", "gpg_passphrase", "-==o#^D-W^@}|SY")
+            config.set("DEFAULT", "gpg_passphrase", "")
         elif base == "GCP":
-            config.set("DEFAULT", "access_key", "GOOG25VC3TC4WUVONNTR54BG")
-            config.set("DEFAULT", "secret_key", "V64GvVZv49rxlLynWQkhtj4aeb+lAPMyhoP+lkb6")
+            config.set("DEFAULT", "access_key", "")
+            config.set("DEFAULT", "secret_key", "")
             config.set("DEFAULT", "host_base", "storage.googleapis.com")
             config.set("DEFAULT", "host_bucket", "%(bucket).storage.googleapis.com")
             config.set("DEFAULT", "gpg_passphrase", "")
