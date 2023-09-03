@@ -2,10 +2,6 @@
   <img src="docs/img/banner.png">
 </p>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-
 ### Description
 This repository contains code that helps you build a web service to upload and download files from S3 bucket and Google Cloud Storage. It also helps you to deploy it to cloud as FaaS. Take a look at [setup.md](https://github.com/Sai-Adarsh/mtx-hacks/blob/master/docs/setup.md) to learn how to setup this project. You can also communicate with multiple SDKs to perform the same job .i.e., **AWS S3** and **Googe Cloud Storage**.
 
