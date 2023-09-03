@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="docs/img/banner.png">
-</p>
+# AWS S3 and GCS Wrapper
 
 ### Description
 This repository contains code that helps you build a web service to upload and download files from S3 bucket and Google Cloud Storage. It also helps you to deploy it to cloud as FaaS. Take a look at [setup.md](https://github.com/Sai-Adarsh/mtx-hacks/blob/master/docs/setup.md) to learn how to setup this project. You can also communicate with multiple SDKs to perform the same job .i.e., **AWS S3** and **Googe Cloud Storage**.
@@ -21,17 +19,6 @@ This repository contains code that helps you build a web service to upload and d
     -  `curl -X POST http://mtx-appendly.herokuapp.com/list_buckets`
 
 You can also import the provided Postman Collection to take a quick look at the exposed endpoints. Also make sure to fill up `access_key` and `secret_key` environment variables to make endpoints intract with the deployed API.
-
-**Screenshots**<br />
-<img src="docs/img/one.png" height=520 width =270 />
-<img src="docs/img/two.png" height=520 width =270 />
-<img src="docs/img/three.png" height=520 width =270 />
-
-### Architecture
-
-<p align="center">
-  <img src="docs/img/arch.png">
-</p>
 
 ### Authors
 
