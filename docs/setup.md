@@ -7,14 +7,14 @@
   $ docker run -d -p 5000:5000 simple-flask-app
   ```
 
-The application will be accessible at ```http://localhost:5000```. If you are using boot2docker, find the IP address using $ boot2docker ip, and then use the IP at ```http://<host_ip>:5000```.
+The application will be accessible at ```http://localhost:5000```. If you are using boot2docker, find the IP address using ```$ boot2docker ip```, and then use the IP at ```http://<host_ip>:5000```.
 
-### Run Flask server without Docker.
+### Run Flask server without Docker
   ```bash
   # Create a virtualenv and activate it
   $ virtualenv venv && source venv/bin/activate
   
-  # Install Python dependencies.
+  # Install Python dependencies
   $ pip install -r requirements.txt
 
   # Run
