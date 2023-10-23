@@ -1,5 +1,5 @@
 ## AWS S3 and GCS Wrapper
-This repository contains code that helps you build a web service to upload and download files from an S3 bucket and Google Cloud Storage. It also assists you in deploying it to the cloud as a Function as a Service (FaaS). Take a look at [setup.md](https://github.com/Sai-Adarsh/aws-s3-and-gcs-wrapper/blob/master/docs/setup.md) to learn how to set up this project. You can also communicate with multiple SDKs to perform the same job, i.e., AWS S3 and Google Cloud Storage."
+This repository contains code that helps you build a web service to upload and download files from an S3 bucket and Google Cloud Storage. It also assists you in deploying it to the cloud as a Function as a Service (FaaS). Take a look at [setup.md](https://github.com/Sai-Adarsh/aws-s3-and-gcs-wrapper/blob/master/docs/setup.md) to learn how to set up this project. You can also communicate with multiple SDKs to perform the same job, i.e., AWS S3 and Google Cloud Storage.
 
 ### Functions
 
